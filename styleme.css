@@ -1,0 +1,76 @@
+body {
+    background-image: url(https://res.cloudinary.com/jerrick/image/upload/fl_progressive,q_auto,w_1024/r3ix35vgxlnbkodvqail.jpg);
+}
+h1 { 
+color: #2a9d8f;
+font-family: 'Times New Roman', Times, serif;
+word-spacing: 20px;
+letter-spacing: 5px;
+text-align: center;
+margin: 20px;
+padding: 20px;
+background-color: white;
+border-radius: 50px;
+
+}
+header { 
+padding: 30px -20%;}
+
+.navLinks { 
+    list-style: none;
+}
+.navLinks li {
+    display: inline-block;
+    padding: 0px 20px;
+}
+.navLinks li a {
+    transition: all .3s ease 0s ;
+    color: green;
+
+}
+ .button {
+     margin-left: 20px;
+     padding: 9px 25px;
+     background-color:#d8e2dc;
+     border: none;
+     border-radius: 50px;
+     cursor: pointer;
+
+ }
+ .firstbox { color: #e56b6f;
+    margin: 20px;
+    padding: 15px 25px;
+    background-color: #fcd5ce;
+    border: #10002b;
+    border-radius: 50px;
+width: 500px;
+
+ }
+
+
+ .secBox {color: #9a031e;
+    margin: 20px;
+    padding: 15px 25px;
+    background-color: #eaac8b;
+    border: #10002b;
+    border-radius: 50px;
+width: 500px;
+
+
+ }
+ 
+
+.thirdBox {color: #7d4f50;
+    margin: 150px 20px 300px;
+    padding: 15px 25px;
+    background-color: #d4b9ab;
+    border: #10002b;
+    border-radius: 50px;
+width: 500px;
+
+
+}
+footer {
+    color: red;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}

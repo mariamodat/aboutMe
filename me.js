@@ -37,8 +37,8 @@ t++;
   {alert('Oops! really I like it !');
 
 f++ ;
-
-}}
+  }
+}
 intrest();
 
 
@@ -56,7 +56,7 @@ intrest();
   else if(mybirth.toLowerCase()=== 'no'||mybirth.toLowerCase()=== 'n')
   {alert('Oops! , I was born in Abu-Dhabi!');
       f++ ; 
-}
+  }
 };
 birth ();
 

@@ -135,31 +135,32 @@ alert('Guess what is my Fav Coffe !');
 for(let i =0 ; i< 7 ; i++)
 {
 
- let kind = prompt(`you have ${7-i} attempts ! try one more`);
+    let correct = false ;
+ let kind = prompt(`you have ${7-i} attempts ! try `);
 
 for (let a =0 ; a<myFav.length;a++)
 {
 
 if ( kind.toLowerCase() === myFav[a])
 {
-
-    alert('Woow you Got me ! try again I have alot !');
-    right ++ ; 
+     correct =true ;
+    
     break ;
 
 }
+}
 
-else if ( kind.toLowerCase() !== myFav[a])
+if (correct)
 {
-
-alert ('Oops ! it is not my Fav !'); 
-wrong ++ ; 
-break ;
-
+    alert('Woow you Got me ! try again I have alot !');
+    right ++ ; 
 }
-
-
-}
+else if (!correct)
+ {
+     alert ('Oops ! it is not my Fav !');
+     
+     worng ++ ;
+ }
 
 
 }

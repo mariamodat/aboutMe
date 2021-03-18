@@ -96,13 +96,13 @@ let numGame = function()
   for(let i =0 ; i<4 ; i++)
 
   {
-    let guess = prompt('guess a number from 0 - 10 !');
+    let guess =Number( prompt('guess a number from 0 - 10 !'));
 
 
     if (guess=== myNum)
     {
       alert ('WoOow ! you got me !');
-      break ;
+      i=4 ;
     }
     else if (guess<myNum)
     {
@@ -145,7 +145,7 @@ for(let i =0 ; i< 7 ; i++)
     {
       correct =true ;
 
-      break ;
+      myFav[length];
 
     }
   }
@@ -154,12 +154,14 @@ for(let i =0 ; i< 7 ; i++)
   {
     alert('Woow you Got me ! try again I have alot !');
     right ++ ;
+    i=7;
   }
-  else if (!correct)
+  else
   {
     alert ('Oops ! it is not my Fav !');
 
     wrong ++ ;
+
   }
 
 
